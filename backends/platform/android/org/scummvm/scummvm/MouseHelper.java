@@ -58,8 +58,8 @@ public class MouseHelper implements View.OnHoverListener {
 	@Override
 	public boolean onHover(View view, MotionEvent motionEvent) {
 		//Log.d(ScummVM.LOG_TAG, "onHover mouseEvent");
-		return onMouseEvent(motionEvent, true);
-//		return false;
+		//return onMouseEvent(motionEvent, true);
+		return false;
 	}
 
 //	public void attach(SurfaceView main_surface) {
